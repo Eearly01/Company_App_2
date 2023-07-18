@@ -1,0 +1,53 @@
+:root {
+  --mainOpacity: rgba(0, 0, 0, 0.55);
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./Images/Hardware/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg");
+  background-size: cover;
+  opacity: var(--mainOpacity);
+  height: 25em !important;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-color {
+  background-color: #1b95e0;
+}
+
+.secondary-color {
+  background-color: gold;
+}
+
+.col-image-left {
+  background-image: url("./Images/Hardware/juan-pablo-daniel-wKkB7tiMrnM-unsplash.jpg");
+  height: 25em !important;
+  max-width: 50em;
+  background-size: 100%;
+}
+
+.col-image-right {
+  background-image: url("./Images/Hardware/timur-garifov--HlaGdSiC-g-unsplash.jpg");
+  height: 25em !important;
+  background-size: cover;
+}
+
+.lost-image {
+  background-image: url("./Images/Hardware/daniel-lezuch-I4DcRJ_Evd8-unsplash.jpg");
+  height: 25em !important;
+  background-size: cover;
+}
+
+.logo {
+  width: 80px;
+  border-radius: 10px;
+  margin-right: 10px;
+  
+}
